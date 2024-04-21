@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "chatwork-mute-and-read-shortcuts",
+  "version": "1.0.0",
+  "description": "Chatworkのチャット一覧にミュートと既読のショートカットを追加します",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chatwork.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
